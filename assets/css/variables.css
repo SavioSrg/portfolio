@@ -1,0 +1,24 @@
+:root {
+    /* Cores de fundo */
+    --cor-background: #ededf2;
+    --cor-cabecalho: #a6aec1;
+    --cor-section: #cfd5e1;
+    --cor-modal: rgba(0, 0, 0, 0.3);
+    --cor-rodape: #6c788e;
+
+    /* Cores de texto */
+    --cor-texto: #040F1A;
+    --cor-texto-claro: #F2F2F2;
+    --cor-placeholder: #888;
+
+    /* Cores de botões */
+    --cor-navegacao: #8293B6;
+    --cor-botao: #007BFF;
+    --cor-botao-hover: #396FAA;
+
+    /* Fonte */
+    --fonte-padrao: "Inter", serif;
+
+    /* Outras cores */
+    --cor-borda: #ccc;
+}
