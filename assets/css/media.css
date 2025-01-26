@@ -37,6 +37,7 @@
     }
 
     nav#lista-menu {
+        display: flex;
         height: auto;
         width: auto;
     }
