@@ -21,3 +21,39 @@ body {
 a {
     text-decoration: none;
 }
+
+.fundo1 {
+    background-image: url(../img/background-fundo-textura.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--cor-texto);
+}
+
+.fundo2 {
+    background-color: var(--cor-background);
+    color: var(--or-texto);
+}
+
+.section-size {
+    min-height: 100vh;
+}
+
+.section-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.intro-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    min-height: 100vh;
+}
+
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}

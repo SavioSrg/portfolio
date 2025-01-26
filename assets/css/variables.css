@@ -21,4 +21,7 @@
 
     /* Outras cores */
     --cor-borda: #ccc;
+
+    /* tamanhos */
+    --gap: 3rem;
 }
