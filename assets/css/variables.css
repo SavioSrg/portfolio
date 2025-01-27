@@ -1,9 +1,9 @@
 :root {
     /* Cores de fundo */
-    --cor-background: #ededf2;
+    --cor-background: #EFEFEF;
     --cor-cabecalho: #a6aec1;
     --cor-section: #cfd5e1;
-    --cor-modal: rgba(0, 0, 0, 0.3);
+    --cor-modal: rgba(0, 0, 0, 0.#454545);
     --cor-rodape: #6c788e;
 
     /* Cores de texto */
@@ -25,3 +25,11 @@
     /* tamanhos */
     --gap: 3rem;
 }
+
+
+/*
+#454545
+#000000
+919191
+#EFEFEF
+*/

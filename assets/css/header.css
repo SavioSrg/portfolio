@@ -19,7 +19,7 @@
     margin: 10px;
 }
 
-.menu h1 a{
+.menu h1 a {
     color: inherit;
 }
 
@@ -31,7 +31,7 @@
     justify-content: flex-end;
 }
 
-.menu ul li a{
+.menu ul li a {
     display: block;
     padding: 2rem;
     font-size: 1.8rem;
@@ -52,7 +52,7 @@
 
 .menu ul li a:hover::after {
     width: 50%;
-    left:25%;
+    left: 25%;
 }
 
 nav#lista-menu,
