@@ -28,19 +28,19 @@ h6 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 4rem;
     margin-bottom: 5rem;
     text-transform: uppercase;
     line-height: 1.2;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h4 {
@@ -60,7 +60,7 @@ a {
 }
 
 p {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .fundo-textura {
@@ -85,12 +85,25 @@ p {
     padding: 10rem var(--gap);
 }
 
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.intro-img img {
+    max-width: 100%;
+    height: auto;
+}
+
 .intro-content {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: var(--gap);
     min-height: 100vh;
+    justify-content: center;
+    place-items: center;
 }
 
 .container {
@@ -101,13 +114,19 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--gap);
 }
 
 .gallery-img {
     width: 100%;
     overflow: hidden;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 footer {
