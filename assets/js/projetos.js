@@ -16,10 +16,18 @@ document.addEventListener("DOMContentLoaded", () => {
                         <source srcset="${projeto.imagem_mobile}">
                         <img src="${projeto.imagem_fallback}" alt="${projeto.titulo}">
                     </picture>
-                    <p>${projeto.titulo}</p>
+                    <h3>${projeto.titulo}</h3>
                     <p>${projeto.descricao}</p>
-                    <a href="${projeto.botao1.link}" target="_blank">${projeto.botao1.texto}</a>
-                    <a href="${projeto.botao2.link}" target="_blank">${projeto.botao2.texto}</a>
+                    <div class="order">
+                        <button class="btn">
+                            <img src="assets/img/github.png" alt="icone do github">
+                            <a href="${projeto.botao1.link}" target="_blank">${projeto.botao1.texto}</a>
+                        </button >
+                        <button class="btn">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            <a href="${projeto.botao2.link}" target="_blank">${projeto.botao2.texto}</a>
+                        </button>
+                    </div>
                 `;
 
                 container.appendChild(div); // Adiciona o projeto na página

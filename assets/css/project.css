@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--gap);
+}
+
+.gallery-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-img p {
+    margin: 0.2rem;
+    padding: 0;
+    text-justify: auto;
+}
+
+.order {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.btn a {
+    margin: 0.5rem;
+    text-decoration: none;
+}
