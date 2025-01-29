@@ -1,0 +1,65 @@
+{
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "descricao": "Descrição do primeiro projeto.",
+        "imagem_desktop": "https://unsplash.it/520",
+        "imagem_tablet": "https://unsplash.it/320",
+        "imagem_mobile": "https://unsplash.it/180",
+        "imagem_fallback": "fallback1.jpg",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto1" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://site1.com" }
+      },
+      {
+        "titulo": "Projeto 2",
+        "descricao": "Descrição do segundo projeto.",
+        "imagem_desktop": "https://unsplash.it/521",
+        "imagem_tablet": "https://unsplash.it/321",
+        "imagem_mobile": "https://unsplash.it/181",
+        "imagem_fallback": "fallback2.jpg",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto2" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://site2.com" }
+      },
+      {
+        "titulo": "Projeto 3",
+        "descricao": "Descrição do terceiro projeto.",
+        "imagem_desktop": "https://unsplash.it/522",
+        "imagem_tablet": "https://unsplash.it/322",
+        "imagem_mobile": "https://unsplash.it/182",
+        "imagem_fallback": "fallback3.jpg",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto3" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://site3.com" }
+      },
+      {
+        "titulo": "Projeto 4",
+        "descricao": "Descrição do primeiro projeto.",
+        "imagem_desktop": "https://unsplash.it/520",
+        "imagem_tablet": "https://unsplash.it/320",
+        "imagem_mobile": "https://unsplash.it/180",
+        "imagem_fallback": "fallback1.jpg",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto1" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://site1.com" }
+      },
+      {
+        "titulo": "Projeto 5",
+        "descricao": "Descrição do segundo projeto.",
+        "imagem_desktop": "https://unsplash.it/521",
+        "imagem_tablet": "https://unsplash.it/321",
+        "imagem_mobile": "https://unsplash.it/181",
+        "imagem_fallback": "fallback2.jpg",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto2" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://site2.com" }
+      },
+      {
+        "titulo": "Projeto 6",
+        "descricao": "Descrição do terceiro projeto.",
+        "imagem_desktop": "https://unsplash.it/522",
+        "imagem_tablet": "https://unsplash.it/322",
+        "imagem_mobile": "https://unsplash.it/182",
+        "imagem_fallback": "fallback3.jpg",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto3" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://site3.com" }
+      }
+    ]
+  }
+  
