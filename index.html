@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/project.css">
     <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=open_in_new" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <title>Portfólio</title>
 </head>
 
 <body onresize="mudouTamanho()">
-    <header class="menu white-bg">
-        <div class="main-content menu-content">
+    <header class="menu">
+        <div class="menu-content">
             <h1><a href="#home">LOGO</a></h1>
+
             <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
             <nav id="lista-menu">
                 <ul>
                     <li><a href="#sobre">Sobre mim</a></li>
@@ -28,10 +32,8 @@
                     <li><a href="#contact">Entrar em Contato</a></li>
                 </ul>
             </nav>
-            <nav class="icons-content">
-                <a href="#"><img class="icons" src="#" alt="icon"></a>
-                <a href="#"><img class="icons" src="#" alt="icon"></a>
-            </nav>
+
+            <i  id="menu-icon" class="fa-solid fa-bars"></i>
         </div>
     </header>
     <main>
@@ -77,7 +79,7 @@
                             <button class="btn">
                                 <span class="material-symbols-outlined">open_in_new</span>
                                 <a href="#">Visualizar</a>
-                            </button >
+                            </button>
                             <button class="btn">
                                 <img src="assets/img/github.png" alt="icone do github">
                                 <a href="#">GitHub</a>
