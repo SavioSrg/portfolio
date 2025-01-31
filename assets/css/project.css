@@ -1,12 +1,60 @@
-.grid {
+@import "variables.css";
+
+.projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: var(--gap);
 }
 
-.gallery-img {
-    width: 100%;
-    overflow: hidden;
+.project-card {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-1rem) scale(1.02);
+}
+
+.project-card img {
+    width: 20vw;
+    border-radius: 1rem;
+}
+
+.project-card .btn {
+    font-size: 1.5rem;
+}
+
+.btn a {
+    color: inherit;
+}
+
+.project-card:hover .btn {
+
+    border: 0.2rem solid white;
+    color: white;
+}
+
+.project-card:hover .btn:hover {
+    border: 0.2rem solid white;
+    background-color: white;
+    color: black;
+}
+
+.project-card h3 {
+    font-size: 2rem;
+    font-weight: 500;
+
 }
 
 .gallery-img p {
@@ -19,18 +67,4 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-}
-
-.btn {
-    margin-top: 2rem;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}
-
-.btn a {
-    margin: 0.5rem;
-    text-decoration: none;
 }

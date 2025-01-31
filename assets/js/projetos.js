@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Percorre todos os projetos e cria os elementos dinamicamente
             data.projetos.forEach(projeto => {
                 const div = document.createElement("div");
-                div.classList.add("gallery-img");
+                div.classList.add("project-card");
 
                 div.innerHTML = `
                     <picture>
@@ -18,15 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     </picture>
                     <h3>${projeto.titulo}</h3>
                     <p>${projeto.descricao}</p>
-                    <div class="order">
-                        <button class="btn">
-                            <img src="assets/img/github.png" alt="icone do github">
-                            <a href="${projeto.botao1.link}" target="_blank">${projeto.botao1.texto}</a>
-                        </button >
-                        <button class="btn">
-                            <span class="material-symbols-outlined">open_in_new</span>
-                            <a href="${projeto.botao2.link}" target="_blank">${projeto.botao2.texto}</a>
-                        </button>
+                    <div class="btn-group">
+                        <div class="btn">
+                        <a href="${projeto.botao1.link}" target="_blank">${projeto.botao1.texto}</a>
+                        </div>
+                        <div class="btn">
+                        <a href="${projeto.botao2.link}" target="_blank">${projeto.botao2.texto}</a>
+                        </div>
                     </div>
                 `;
 
@@ -35,4 +33,5 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Erro ao carregar os dados:", error));
 });
+
 
