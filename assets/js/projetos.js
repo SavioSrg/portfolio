@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../conteudos/projetos.json") // Busca os dados do JSON
+    fetch("projetos.json") // Busca os dados do JSON
         .then(response => response.json()) // Converte para objeto JavaScript
         .then(data => {
             const container = document.getElementById("projetos-container");
