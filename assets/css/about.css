@@ -1,0 +1,68 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.intro-img picture img, .intro-img picture source  {
+    border-radius: 50%;
+}
+
+.info-box {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.info-box p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.info-box h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    text-wrap: nowrap;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* .intro-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    min-height: 100vh;
+    justify-content: center;
+    place-items: center;
+} */
+
+
+
