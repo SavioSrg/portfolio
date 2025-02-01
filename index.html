@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/experience.css">
     <link rel="stylesheet" href="assets/css/project.css">
-    <!-- <link rel="stylesheet" href="assets/css/media.css"> -->
+    <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,8 @@
 <body onresize="mudouTamanho()">
     <header class="menu">
         <div class="menu-content">
-            <h1><a href="#home">LOGO</a></h1>
+            <h1 class=".logo"><a href="#home">LOGO</a></h1>
+            <i  id="menu-icon" class="fa-solid fa-bars" onclick="clickMenu()"></i>
             <nav id="lista-menu">
                 <ul>
                     <li><a href="#sobre">Sobre mim</a></li>
@@ -31,7 +32,6 @@
                     <li><a href="#contact">Entrar em Contato</a></li>
                 </ul>
             </nav>
-            <i  id="menu-icon" class="fa-solid fa-bars"></i>
         </div>
     </header>
     <main>
@@ -80,7 +80,7 @@
 
                 <div class="experience-info">
 
-                    <div class="grid-one">
+                    <div class="grid">
                         <article class="grid-card">
                             <i class="fa-solid fa-code"></i>
                             <p>Função 1</p>
@@ -122,12 +122,6 @@
                 
                 <div id="projetos-container" class="projects-grid">
 
-                    <div class="project-card">
-                        <img src="https://unsplash.it/360?r=4" alt="Imagem gerada automaticamente">
-                        <div class="btn-group">
-                                <div class="btn">Live Demo</div>
-                                <div class="btn">GitHub Repo</div>
-                        </div>
                     </div>
                 </div>
             </div>

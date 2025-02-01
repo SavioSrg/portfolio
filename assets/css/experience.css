@@ -14,7 +14,7 @@
     gap: 5rem;
 }
 
-.grid-one {
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--gap);
