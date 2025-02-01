@@ -73,4 +73,16 @@
         justify-content: center;
         text-align: center;
     }
+
+    .info-box p{
+        font-size: 1.8rem;
+    }
+    
+    .info-box h2 {
+        font-size: 4rem;
+    }
+    
+    .info-box p#prof{
+        font-size: 2.5rem;
+    }
 }
