@@ -1,9 +1,27 @@
 @charset "UTF-8";
 
+@media only screen and (max-width: 897px) and (min-width: 676px) {
+
+    .menu-content {
+        justify-content: center;
+    }
+
+    .menu h1 {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .about .intro-content{
+        gap: 3rem;
+    }
+}
+
+
+
 @media (max-width: 768px){
-    header {
+    .menu {
         gap: 1rem;
-        padding: 1rem 1rem;
+        padding: 2rem 0rem;
     }
 
     header .logo {
@@ -14,8 +32,9 @@
         display: none;
     }
 
-    .intro-content {
+    .about .intro-content{
         flex-direction: column;
+        gap: 4rem;
     }
 
     .intro-content .intro-img {
@@ -31,7 +50,7 @@
     }
 }
 
-@media (max-width: 642px){
+@media (max-width: 675px){
     .menu-content {
         padding: 1rem 5rem;
     }

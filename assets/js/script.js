@@ -1,7 +1,7 @@
 const menu = document.getElementById('lista-menu');
 
 function mudouTamanho() {
-    if (window.innerWidth < 643) {
+    if (window.innerWidth < 676) {
         menu.style.display = 'none'
     } else {
         menu.style.display = 'flex'

@@ -9,27 +9,27 @@
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/experience.css">
     <link rel="stylesheet" href="assets/css/project.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300&display=swap">
     <title>Portfólio</title>
 </head>
 
 <body onresize="mudouTamanho()">
     <header class="menu">
         <div class="menu-content">
-            <h1 class=".logo"><a href="#home">LOGO</a></h1>
+            <h1 class=".logo"><a href="#home">SÁVIO SÉRGIO</a></h1>
             <i  id="menu-icon" class="fa-solid fa-bars" onclick="clickMenu()"></i>
             <nav id="lista-menu">
                 <ul>
                     <li><a href="#sobre">Sobre mim</a></li>
-                    <li><a href="#skills">Competências</a></li>
-                    <li><a href="#project">Trabalhos</a></li>
-                    <li><a href="#contact">Entrar em Contato</a></li>
+                    <li><a href="#skills">Experiências</a></li>
+                    <li><a href="#project">Trabalhos Recentes</a></li>
+                    <li><a href="#contact">Fale comigo</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,7 +41,7 @@
                     <div class="intro-text">
                         <p>Hi, I'm</p>
                         <h2>Sávio Sérgio</h2>
-                        <p>Desenvolvedor</p>
+                        <p id="prof">Desenvolvedor</p>
                     </div>
                     <div class="btn-group">
                         <button class="btn">Dowload CV</button>
@@ -54,9 +54,9 @@
                 </div>
                 <div class="intro-img">
                     <picture>
-                        <source srcset="https://unsplash.it/520" media="(min-width: 800px)">
-                        <source srcset="https://unsplash.it/320" media="(min-width: 500px)">
-                        <source srcset="https://unsplash.it/180">
+                        <source srcset="https://unsplash.it/520" media="(min-width: 1000px)">
+                        <source srcset="https://unsplash.it/380" media="(min-width: 700px)">
+                        <source srcset="https://unsplash.it/380" media="(min-width: 00px)">
                         <img src="fallback-imagem.jpg" alt="Descrição da imagem">
                     </picture>
                 </div>
@@ -64,7 +64,7 @@
         </section>
         <section id="sobre" class="fundo-liso section-size">
             <div class="section-content">
-                <h2>Competências</h2>
+                <h2>Sobre mim</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur consequatur, nam doloribus sit
                     sint aut natus iusto atque! Cupiditate ratione hic officia ipsam earum natus exercitationem quidem
                     beatae officiis suscipit?</p>
@@ -118,7 +118,7 @@
 
         <section id="project" class="fundo-textura section-size projects">
             <div class="section-content">
-                <h2 class="section-title">Trabalhos</h2>
+                <h2 class="section-title">Trabalhos Recentes</h2>
                 
                 <div id="projetos-container" class="projects-grid">
 
