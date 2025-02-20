@@ -37,3 +37,12 @@
     background-color: black;
     color: white;
 }
+
+.grid-card ul {
+    padding-left: 20px;
+}
+
+.grid-card ul li {
+    text-align: jus;
+    margin-bottom: 8px;
+}
