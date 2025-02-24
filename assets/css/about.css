@@ -76,8 +76,14 @@
     transition: 0.2s ease-in-out;
 }
 
+.social a {
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
 .social i:hover {
     transform: scale(1.2);
 }
+
 
 
