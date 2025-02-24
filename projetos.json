@@ -1,14 +1,14 @@
 {
     "projetos": [
       {
-        "titulo": "Projeto 1",
-        "descricao": "Descrição do primeiro projeto.",
-        "imagem_desktop": "https://unsplash.it/520",
-        "imagem_tablet": "https://unsplash.it/320",
-        "imagem_mobile": "https://unsplash.it/180",
-        "imagem_fallback": "fallback1.jpg",
-        "botao1": { "texto": "Ver Código", "link": "https://github.com/projeto1" },
-        "botao2": { "texto": "Visualizar Página", "link": "https://site1.com" }
+        "titulo": "Cadatro de produto",
+        "descricao": "Um sistema simples de cadastro e listagem de produtos, desenvolvido com HTML, CSS e JavaScript, utilizando o localStorage do navegador para persistência de dados. <a rel='nofollow' target='blank' href='https://github.com/SavioSrg/cadastroProduto/blob/main/README.md'>Saiba mais</a>",
+        "imagem_desktop": "",
+        "imagem_tablet": "",
+        "imagem_mobile": "",
+        "imagem_fallback": "assets/img/lista_produtos.png",
+        "botao1": { "texto": "Ver Código", "link": "https://github.com/SavioSrg/cadastroProduto" },
+        "botao2": { "texto": "Visualizar Página", "link": "https://saviosrg.github.io/cadastroProduto/" }
       }
     ]
   }
